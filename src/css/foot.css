@@ -1,0 +1,179 @@
+.about .container {
+  overflow: hidden;
+  border-top: 3px solid #ec1611;
+  background: #fff;
+  color: #666;
+}
+
+.about .container ul li {
+  display: block;
+  width: 170px;
+  float: left;
+  padding: 25px 25px 0 28px;
+}
+
+.about .container ul li span.show_icon {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+  background: url("../img/foot_1.png") no-repeat;
+}
+
+.about .container li.lw span, .about .container li.lw a {
+  display: block;
+}
+
+.about .container li.lw span:nth-child(2) {
+  font-size: 16px;
+  color: #333;
+  line-height: 30px;
+}
+
+.about .container li.lw a {
+  font-size: 12px;
+  color: #666;
+  line-height: 24px;
+}
+
+.about .container li.lw a:hover {
+  color: #ec1611;
+}
+
+.about .container li.w2 {
+  width: 200px;
+}
+
+.about .container li.w2 h3, .about .container li.w2 h4, .about .container li.w2 a, .about .container li.w2 h5, .about .container li.w2 h6 {
+  display: inline-block;
+  font-size: 12px;
+  color: #666;
+  line-height: 24px;
+}
+
+.about .container li.w2 h3 > a, .about .container li.w2 h4 > a {
+  color: #ec1611;
+}
+
+.about .container li.w2 h6 input.txt {
+  display: inline-block;
+  height: 25px;
+  line-height: 25px;
+  width: 98px;
+  color: #999;
+  border: 1px solid #eaeaea;
+}
+
+.about .container li.w2 h6 input.bt {
+  height: 25px;
+  line-height: 25px;
+  width: 42px;
+  cursor: pointer;
+  color: #999;
+  border-left: 0;
+}
+
+.about .container li.w3 {
+  width: 200px;
+  float: right;
+}
+
+.about .container li.w3 .bottom_wp {
+  width: 104px;
+  height: 220px;
+  background: url("../img/foot_2.png") no-repeat;
+}
+
+.about .container li.w3 span {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+}
+
+.footer {
+  padding-top: 20px;
+}
+
+.footer ul, .footer a, .footer .foot_bt {
+  display: inline-block;
+  color: #666;
+  font-size: 12px;
+}
+
+.footer .container {
+  height: 20px;
+}
+
+.footer .container .foot_ct {
+  padding-left: 220px;
+  width: 800px;
+  font-size: 12px;
+  color: #666;
+  line-height: 20px;
+}
+
+.footer .container .foot_ct ul a {
+  padding-left: 10px;
+}
+
+.footer .container .foot_ct ul a:hover {
+  text-decoration: underline;
+}
+
+.footer .container .foot_ct .foot_ct_c {
+  float: right;
+}
+
+.footer .container .foot_ct .foot_ct_c:hover {
+  color: #ec1611;
+}
+
+.footer .container .foot_bt {
+  padding-top: 10px;
+  padding-left: 88px;
+}
+
+.footer .container .foot_bt a:hover {
+  text-decoration: underline;
+}
+
+.footer .container .foot_bt span {
+  display: inline-block;
+  padding-top: 10px;
+  padding-left: 200px;
+}
+
+.footer .container .foot_btt {
+  padding-top: 10px;
+  padding-left: 432px;
+}
+
+.footer .container .foot_btt span {
+  display: block;
+  float: left;
+}
+
+.footer .container .foot_btt .commitment_img {
+  background: url("../img/logo.jpg") no-repeat;
+  width: 30px;
+  height: 28px;
+  background-size: 30px 28px;
+  float: left;
+}
+
+.footer .container .foot_btt .wxrz_img {
+  background: url("../img/big_pic.png") -886px -626px;
+  height: 26px;
+  width: 76px;
+}
+
+.footer .container .foot_btt .cxwz_img {
+  background: url("../img/big_pic.png") -885px -660px;
+  height: 26px;
+  width: 76px;
+}
+
+.footer .container .foot_btt .kxwz_img {
+  background: url("../img/big_pic.png") -885px -699px;
+  height: 26px;
+  width: 76px;
+}

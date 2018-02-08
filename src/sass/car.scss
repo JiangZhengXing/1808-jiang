@@ -1,0 +1,42 @@
+.title{
+    height: 50px;
+    line-height:50px;
+    overflow:hidden;
+    p{display:inline-block;font-size:20px;margin-right:20px;}
+    .righti{
+        float:right;
+
+    }
+    span{color:#999;font-size:12px;}
+    .count{color:#f00;font-size:20px;}
+}
+
+.cars{
+    .head{
+        padding:15px 0;
+        line-height:20px;
+        overflow:hidden;
+        border-top:2px solid #ec1611;
+        p{
+            font-weight:700;
+            font-size:12px;
+            float:left;
+            color:#333;
+
+        }
+        .all{
+            width: 50px;
+            margin-right:150px;
+            text-align:center;
+        }
+        .products{
+            width: 444px;
+        }
+        .price{
+            width: 180px;
+        }
+        .money{
+            width: 170px;
+        }
+    }
+}

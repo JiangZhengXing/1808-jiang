@@ -1,0 +1,104 @@
+body {
+  background-color: #f5f5f5;
+}
+
+.fenlei {
+  height: 40px;
+  margin-top: 20px;
+  background-color: #FFF;
+}
+
+.fenlei ul {
+  overflow: hidden;
+}
+
+.fenlei li {
+  float: left;
+  display: block;
+}
+
+.fenlei li button {
+  display: block;
+  height: 40px;
+  padding: 10px;
+  margin: 0 10px;
+  cursor: pointer;
+  background: #fff;
+}
+
+.fenlei li button:hover {
+  color: #f00;
+}
+
+.fenlei a {
+  display: block;
+  height: 40px;
+  font-size: 14px;
+  color: #666;
+  padding: 10px;
+}
+
+.fenlei a:hover {
+  color: #f00;
+}
+
+.fenlei a.active {
+  color: #f00;
+}
+
+.list_content {
+  margin-top: 20px;
+  padding-left: 10px;
+  overflow: hidden;
+  background-color: #FFF;
+}
+
+.list_content img {
+  width: 250px;
+  overflow: hidden;
+}
+
+.list_content li {
+  display: block;
+  float: left;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.list_content li .pro {
+  height: 20px;
+  margin-top: 5px;
+  padding-left: 10px;
+  width: 250px;
+  font-size: 12px;
+  color: #666;
+}
+
+.list_content li .sale {
+  padding-left: 10px;
+}
+
+.list_content li .mon b {
+  color: #ec1611;
+  font-size: 12px;
+}
+
+.list_content li .mon .price {
+  height: 30px;
+  padding-right: 5px;
+  line-height: 30px;
+  color: #ec1611;
+  font-size: 18px;
+}
+
+.list_content li .mon .del_price {
+  font-size: 12px;
+  color: #999;
+}
+
+.list_content li .mon .time {
+  font-size: 12px;
+  color: #666;
+  text-align: right;
+  margin-left: 65px;
+}
