@@ -24,19 +24,128 @@
             color:#333;
 
         }
-        .all{
+        .all_1{
             width: 50px;
             margin-right:150px;
             text-align:center;
         }
         .products{
-            width: 444px;
+            width: 320px;
         }
         .price{
-            width: 180px;
+            width: 170px;
+        }
+        .number{
+            width: 170px;
         }
         .money{
-            width: 170px;
+            width: 180px;
+        }
+    }
+    .buylist{
+        
+        padding:10px 0px;
+        overflow:hidden;
+        text-align:center;
+        li{
+            float:left;
+            width: 100%;
+            margin-top:10px;
+            background: #f2f2f2;
+            padding-top:10px;
+        }
+        .cart_che{
+            float:left;
+            margin-left:40px;
+            display:inline-block;
+            input{display:block;}
+        }
+        .cart_img{
+            float:left;
+            width: 80px;
+            height: 80px;
+            margin-left:20px;
+        }
+        .cart_ifo{
+            float:left;
+            display:inline-block;
+            width: 135px;
+            height: 80px;
+            font-size:12px;
+            cursor:pointer;
+            margin-left:10px;
+            &:hover{color:#f00;}
+        }
+        .cart_pri{
+            float:left;
+            color:#666;
+            display:inline-block;
+            margin-left:200px;
+            text-align:center;
+            del{
+                color:#999;
+                font-size:12px;
+            }
+        }
+        .cart_qty{
+            float:left;
+            display:inline-block;
+            padding: 0px 40px;
+            margin-left:62px;
+
+            
+                
+        }
+        .cart_tot{
+            display:inline-block;
+            float:left;
+            margin-left:105px;
+            span{
+                color:#f00;
+                font-size:18px;
+            }
+        }
+        .cart_op{
+            float:right;
+            font-size:12px;
+            color:#999;
+            cursor:pointer;
+            padding-right:20px;
+        }
+    }
+    .cart_footer{
+        border:1px solid #ddd;
+        height: 44px;
+        overflow:hidden;
+        line-height:39px;
+        color:#333;
+        font-size:12px;
+        margin-bottom:20px;
+        .all_2{
+            margin-left:10px;
+        }
+        .clear{
+            margin-left:20px;
+            cursor:pointer;
+        }
+        .clearAll{
+            margin-left:20px;
+            cursor:pointer;
+        }
+        .totalAll{
+            font-size:14px;
+            float:right;
+            margin-right:30px;
+            .tot{font-size:22px;color:#f00;}
+        }
+        .btn{
+            width: 150px;
+            height: 45px;
+            float:right;
+            color:#fff;
+            background: #f00;
+            font-size:16px;
+            cursor:pointer;
         }
     }
 }

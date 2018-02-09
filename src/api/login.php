@@ -1,6 +1,6 @@
 <?php
-	// include 'connect.php';
-	require('connect.php');
+	
+	include('connect.php');
 	
 	// 获取前端数据
 	$username = isset($_GET['username']) ? $_GET['username'] : '';
@@ -11,29 +11,15 @@
 
 	$sql = "select * from user where username='$username' and password='$password'";
 
-
-	// 获取查询结果
 	$result = $conn->query($sql);
-	// if($result->num_rows>0){
-	// 	echo 'ok';
-	// }else{
-	// 	echo 'fail';
-	// }
-
-
-	//print_r($row[0]);
-
-
-	if($result->num_rows > 0){
-		echo 'success';
+	
+	if($result->num_rows>0){
+		echo 'ok';
 	}else{
 		echo 'fail';
 	}
-	
-
 	// 释放查询内存(销毁)
 	$result->free();
-
-	//关闭连接
+	// 关闭文件
 	$conn->close();
 ?>

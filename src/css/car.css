@@ -38,20 +38,153 @@
   color: #333;
 }
 
-.cars .head .all {
+.cars .head .all_1 {
   width: 50px;
   margin-right: 150px;
   text-align: center;
 }
 
 .cars .head .products {
-  width: 444px;
+  width: 320px;
 }
 
 .cars .head .price {
-  width: 180px;
+  width: 170px;
+}
+
+.cars .head .number {
+  width: 170px;
 }
 
 .cars .head .money {
-  width: 170px;
+  width: 180px;
+}
+
+.cars .buylist {
+  padding: 10px 0px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.cars .buylist li {
+  float: left;
+  width: 100%;
+  margin-top: 10px;
+  background: #f2f2f2;
+  padding-top: 10px;
+}
+
+.cars .buylist .cart_che {
+  float: left;
+  margin-left: 40px;
+  display: inline-block;
+}
+
+.cars .buylist .cart_che input {
+  display: block;
+}
+
+.cars .buylist .cart_img {
+  float: left;
+  width: 80px;
+  height: 80px;
+  margin-left: 20px;
+}
+
+.cars .buylist .cart_ifo {
+  float: left;
+  display: inline-block;
+  width: 135px;
+  height: 80px;
+  font-size: 12px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.cars .buylist .cart_ifo:hover {
+  color: #f00;
+}
+
+.cars .buylist .cart_pri {
+  float: left;
+  color: #666;
+  display: inline-block;
+  margin-left: 200px;
+  text-align: center;
+}
+
+.cars .buylist .cart_pri del {
+  color: #999;
+  font-size: 12px;
+}
+
+.cars .buylist .cart_qty {
+  float: left;
+  display: inline-block;
+  padding: 0px 40px;
+  margin-left: 62px;
+}
+
+.cars .buylist .cart_tot {
+  display: inline-block;
+  float: left;
+  margin-left: 105px;
+}
+
+.cars .buylist .cart_tot span {
+  color: #f00;
+  font-size: 18px;
+}
+
+.cars .buylist .cart_op {
+  float: right;
+  font-size: 12px;
+  color: #999;
+  cursor: pointer;
+  padding-right: 20px;
+}
+
+.cars .cart_footer {
+  border: 1px solid #ddd;
+  height: 44px;
+  overflow: hidden;
+  line-height: 39px;
+  color: #333;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.cars .cart_footer .all_2 {
+  margin-left: 10px;
+}
+
+.cars .cart_footer .clear {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.cars .cart_footer .clearAll {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.cars .cart_footer .totalAll {
+  font-size: 14px;
+  float: right;
+  margin-right: 30px;
+}
+
+.cars .cart_footer .totalAll .tot {
+  font-size: 22px;
+  color: #f00;
+}
+
+.cars .cart_footer .btn {
+  width: 150px;
+  height: 45px;
+  float: right;
+  color: #fff;
+  background: #f00;
+  font-size: 16px;
+  cursor: pointer;
 }
